@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+  }     
+.container_1{
+    display: flex;
+justify-content: space-between;
+background-color: white;
+height: 76px;
+max-height: 76px;
+padding: 5px;
+
+
+}
+
+.logoImage{
+flex: 1;
+display: flex;
+align-items: center;
+margin-left: 15px;
+    
+}
+
+.navPages{  
+    flex: 4;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+ font-size: 1.5rem;
+   margin-left: 5px;
+   margin-right: 5px;
+   font-family: 'Kaushan Script';
+}
+.navPages a{
+text-decoration: none;
+color: palevioletred;
+margin-left: 15px;
+}
+
+.navPages a:hover{
+transition:0.5s ease-in-out;
+color: black;
+}
+
+.phoneNum{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+font-family: 'Kaushan Script';
+font-size: 16px;
+
+}
+
+.cartDiv{
+flex: 1;
+padding:20px;
+justify-content: center;
+vertical-align: middle;
+display: flex;
+
+}
+
+.cartButton{
+    width: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-radius:5px;
+    border: 1px solid black;
+    flex-direction: row;
+      
+ 
+}
+
+.cartDiv :hover{
+    background-color: rgb(247, 162, 176);
+    color: white;
+    border: 0;
+}
+.container_2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+.container_2 img{
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+   
+    
+  
+}
+.container_2 p{
+  flex:1;
+  justify-content: center;
+  vertical-align: middle;
+
+  
+}
+.container_2 button{
+ flex:1;
+ justify-content: center;
+}
+
+
+
+
+
+
+
+
