@@ -1,3 +1,7 @@
+header{
+  display: block;
+  box-sizing: border-box;
+}
 body {
     margin: 0;
   }     
@@ -79,38 +83,146 @@ display: flex;
     border: 0;
 }
 .container_2{
+display:flex;
+flex-wrap: wrap;
+flex-direction: column;
+background-image:url(cake.jpg);
+ background-repeat: no-repeat;
+ background-size:cover;
+min-height: 100vh;
+justify-content: center;
+justify-items: center;
+box-sizing: border-box;
+align-items: center !important;
+/* background-image: linear-gradient(rgba(249, 228, 148, 0.5),rgba(249, 228, 148, 0.5)); */
+
+}
+
+
+.container_3{
+  display: flex;
+ flex-direction: column;
+}
+.container_3 h1{
+  justify-content: center !important;
+  vertical-align: middle !important;
+  font-family:'Kaushan Script';
+  color: white;
+  font-size: 2.5rem;
+
+}
+.container_3 h1 strong{
+color: pink;
+font-size: 4rem;
+}
+.container_3 a{
+  font-family:'Kaushan Script';
+  justify-content: center !important;
+  justify-items: center !important;
+  justify-self: center !important;
+  color: black;
+  border: 0.2rem solid black;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: .5rem !important;
+  margin-bottom: .5rem !important;
+ padding: .375rem .75rem;;
+ line-height: 1.5;
+ border-radius: .25rem;
+ margin-left: auto;
+ margin-right: auto;
+}
+.container_3 a:hover{
+color: pink;
+background-color: black;
+
+
+}
+.container_4{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-top: 3rem ;
+padding-bottom:3rem ;
+}
+
+.aboutUs{
+flex: 1;
+margin-bottom: auto;
 display: flex;
 flex-direction: column;
-justify-content: center;
-
+margin-left: 10%;
+margin-right: auto;
+margin-top: auto;
 
 }
-.container_2 img{
-    flex-direction: row;
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-   
+
+.aboutUs h1{
+  font-size: 2.5rem;  
+  text-align: center;
+  font-family:'Kaushan Script';
+  color: black;
+  width: 75%;
+  text-align: center;
+} 
+
+
+.aboutUs p{
+  margin-top: auto;
+  text-align: left;
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem ;
+  color: #6c757d ;
+  font-family:'Kaushan Script';
+  
+  } 
+
+
+  .aboutUs strong{
+  color: pink;
+  font-size: 4rem;
+  }
+
+  .aboutUs a{
+
+    font-family:'Kaushan Script';
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: .375rem .75rem;;
+    line-height: 1.5;
+    border-radius: .25rem;
+margin-left: 25%;
+margin-right: auto;
+
+    } 
+
+    .aboutUs a:hover{
+
+      color: pink;
+      background-color: black;
+    } 
+
+    .aboutUsImg{
+      flex: 1;
+      margin-left: auto;
+      margin-right: 10%;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+      margin-bottom: auto;
+
+    }
+
+    
+    .aboutUsImg img{
+      max-width: 100%;
+      
+    }
     
   
-}
-.container_2 p{
-  flex:1;
-  justify-content: center;
-  vertical-align: middle;
-
-  
-}
-.container_2 button{
- flex:1;
- justify-content: center;
-}
-
-
-
-
-
-
-
-
