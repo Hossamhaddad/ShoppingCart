@@ -1,4 +1,5 @@
 'use strict'
+
 let img=document.getElementsByClassName('shopItems_Img');
 
 fetch("cakes.json")
@@ -6,9 +7,8 @@ fetch("cakes.json")
   .then(json => {return json.body})
   .then(json=>{
    
-
 let container=document.getElementsByClassName('shopItems_section')[0];
-for(let i=0;i<json.length;i++){
+for(let i=0;i<json.length-1;i++){
 let name=document.createElement('h5');
 let price=document.createElement('h5');
 
@@ -32,16 +32,10 @@ shopItmes.appendChild(card);
 card.appendChild(shopItems_Img);
 card.appendChild(shopItems_Des);
 
-
-shopItems_Img.style.backgroundImage=`url('${json[i].image}')`;
-
-
-//  img[0].style.backgroundImage=`url('${json[i].image}')`;
-
+shopItems_Img.style.backgroundImage=`url('/imgs/${json[i].image}')`;
 
 
 }
-     
   })
  
 

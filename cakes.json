@@ -3,62 +3,62 @@
 [{
 "name":"Sweet Item",
 "price":"5",
-"image":"cake.jpg"
+"image":"cake-1.jpeg"
 },
 {
-    "name":"Sweet Item",
+    "name":"Cupcake Item",
     "price":"10",
-    "image":"cake.jpg"
+    "image":"cake-2.jpeg"
     },
     {
-        "name":"Sweet Item",
+        "name":"Cake Item",
         "price":"15",
-        "image":"cake.jpg"
+        "image":"cake-3.jpeg"
         },
         {
-            "name":"Sweet Item",
+            "name":"Dougnut Item",
             "price":"5",
-            "image":"cake.jpg"
+            "image":"cupcake-1.jpeg"
             },
             {
                 "name":"Sweet Item",
                 "price":"5",
-                "image":"cake.jpg"
+                "image":"cupcake-2.jpeg"
                 },{
 
                     "name":"Sweet Item",
                     "price":"5",
-                    "image":"cake.jpg"
+                    "image":"cupcake-3.jpeg"
                     },
         {
             "name":"Sweet Item",
             "price":"5",
-            "image":"cake.jpg"
+            "image":"doughnut-1.jpeg"
             },
             {
                 "name":"Sweet Item",
                 "price":"5",
-                "image":"cake.jpg"
+                "image":"doughnut-2.jpeg"
                 },{
                     
                     "name":"Sweet Item",
                     "price":"5",
-                    "image":"cake.jpg"
+                    "image":"doughnut-3.jpeg"
                     },
                     {
                         "name":"Sweet Item",
                         "price":"5",
-                        "image":"cake.jpg"
+                        "image":"sweets-1.jpeg"
                         },
                         {
                             "name":"Sweet Item",
                             "price":"5",
-                            "image":"cake.jpg"
+                            "image":"sweets-2.jpeg"
                             },{
                                 
                                 "name":"Sweet Item",
                                 "price":"5",
-                                "image":"cake.jpg"
+                                "image":"sweets-3.jpeg"
                                 }
 ]
 
